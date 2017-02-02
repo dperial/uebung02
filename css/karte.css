@@ -1,0 +1,27 @@
+.container{
+	text-align: center;
+	width: 72%;
+	position: relative;
+	padding-top: 6em;
+    padding-bottom: 6em;
+  
+}
+body{
+	background-image: url("../images/poker.jpg");
+	 font-family: 'Open Sans', sans-serif;
+	 width: auto;
+	 
+}
+
+.articles{
+	
+    background: lightblue;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#C1, #C2, #C3{
+    padding-left: 10,5%;
+}
+

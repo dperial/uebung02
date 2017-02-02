@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title> Karte Spiel </title>
+		<link rel="stylesheet" type="text/css" href="css/karte.css">
+		<script type="application/javascript" src="js/karte.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<article class = "articles">
+				<h1> Karte-Spiel </h1>
+				<header>
+
+					<button type="button"> Wetten-Preis :</button>  <input type="text"  
+					name ="wettenPreis"  id ="wettenPreis" placeholder="Geben Sie Ihre Wettepreis ein" style="width:20%"  value ="" />
+
+					<button type="button"> Portemonee :</button> <input type="text"  
+					id = "porteMonee " style="width:10%"  value="0" />
+
+					<input  type="button" value="Restart"  onclick="restart()" />
+				</header>
+					<br>
+				<div class = "spiel">
+			        	
+			        <button type = "button" onclick="play()"> Spiel  !</button>
+	      			<br />
+	      				
+	      		</div>
+			        <br>
+			        <br>
+			    <div> 
+				    <input type = "image" name = "karte" id = "k1"  />
+				    <input type = "image" name = "karte" id = "k2"  />
+				    <input type = "image" name = "karte" id = "k3"  />
+				</div>
+		    </article>
+		</div>
+		<script type="application/javascript">
+	    	main()
+		</script>
+	</body>
+</html>
